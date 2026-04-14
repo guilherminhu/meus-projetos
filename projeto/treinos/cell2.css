@@ -1,0 +1,196 @@
+.pai {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 255, 170);
+    margin: 0%;
+
+
+}
+
+.neto1 {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+
+
+h1 {
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+p {
+
+    font-size: 22px;
+    margin: 5px 20px;
+
+}
+
+button {
+
+    background-color: blue;
+    border-radius: 30px;
+    height: 62px;
+    width: 269px;
+    margin-top: 20px;
+    align-items: center;
+    filter: drop-shadow(0px 6px 6px rgb(1, 1, 39));
+    border: none;
+    font-size: 20px;
+    font-family: oswald;
+
+}
+
+button:active {
+
+    opacity: .5;
+
+}
+
+.cell {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 20px;
+    position: relative;
+}
+
+.neto2 {
+
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(61, 19, 139);
+    min-height: 760px;
+    margin-top: 100px;
+    border: none
+}
+
+a {
+
+    display: none;
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+    * {
+
+        box-sizing: border-box;
+        background-color: rgb(102, 182, 155);
+        margin: 0%;
+        padding: 0%;
+
+
+    }
+
+    .pai {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .neto2 {
+
+
+        background-color: rgba(16, 105, 134, 0.514);
+        height: 690px;
+        width: 930px;
+
+    }
+
+    .neto1 {
+
+        display: flex;
+
+    }
+
+    .cell {
+
+        height: 500px;
+        width: 400px;
+        position: relative;
+        left: 100px;
+        top: 150px;
+        background-color: transparent;
+
+    }
+
+    .link {
+
+        margin-left: 30px;
+        font-family: oswald;
+        font-size: 20px;
+        background-color: transparent;
+        cursor: pointer;
+
+    }
+
+    .link:nth-child(2) {
+
+        color: rgb(25, 129, 129);
+    }
+
+    h1 {
+
+        font-size: 60px;
+
+    }
+
+    .neto1 {
+
+        margin-top: 230px;
+        margin-left: 50px;
+        margin-right: 30px;
+        font-family: oswald;
+        font-size: 20px;
+
+    }
+
+    p {
+
+        opacity: 0.6;
+
+    }
+
+    button {
+
+        background-color: blue;
+        border-radius: 30px;
+        height: 62px;
+        width: 269px;
+        margin-top: 30px;
+        align-items: center;
+        filter: drop-shadow(0px 6px 6px rgb(1, 1, 39));
+        border: none;
+        font-size: 20px;
+        font-family: oswald;
+        cursor: pointer
+    }
+
+    button:hover {
+
+        opacity: 0.8;
+    }
+
+    button:active {
+
+        opacity: .5;
+
+    }
+
+
+}
